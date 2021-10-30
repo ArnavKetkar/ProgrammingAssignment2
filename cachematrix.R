@@ -1,5 +1,5 @@
 ## Write a short comment describing this function
-
+library(MASS) ## to find inverse of non-square matrices
 makeCacheMatrix <- function(x = matrix()) {
 ## Initialize the inverse property
     i <- NULL
